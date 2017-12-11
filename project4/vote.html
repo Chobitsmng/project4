@@ -4,10 +4,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="A page with a voting form to vote for the monthly winners for a local photo contest" />
-		<meta name="robots" content="nofollow" />
+		<meta name="robots" content="index, follow" />
 
 		<title>Vote</title>
 		<!--Leslie A Borst, ITWP1000, Fall2017-->
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
@@ -22,6 +23,82 @@
 			<a href="index.htm">Home</a> - <a href="galleries.html">Galleries</a> - <a href="submitrules.html">Submit/Rules</a> - <a href="topics.html">Topics</a> - <a href="vote.html">Vote</a>
 		</nav>
 		<hr />
+
+		<form id="submit" name="vote" method="post" action="mailto:borstl899@macomb.edu">
+			<section>
+				<h2> Vote For This Months Winner</h2>
+				<h4>Full set of rules on voting and submitting found <a href="submitrules.html">here</a>.</h4>
+
+				<fieldset>
+					<legend>
+						<strong>Christmas Submissions</strong>
+					</legend>
+
+					<table>
+						<tr>
+							<td><input type="radio" name="vote1" id="vote1" value="house ribbon"></td>
+							<td><img src="images/houseribbon.jpg" title="house ribbon" alt="a house decorated for christmas with a giant lite up ribbon"></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="vote2" id="vote2" value="fireplace"></td>
+							<td><img src="images/fireplace.jpg" title="fireplace" alt="a fireplace with stockings and a christmas tree"></td>
+						</tr>
+					</table>
+
+				</fieldset>
+			</section>
+
+			<section>
+				<fieldset>
+					<legend>
+						<strong>Guitar Submissions</strong>
+					</legend>
+	
+					<table>
+						<tr>
+							<td><input type="radio" name="vote3" id="vote3" value="accoustic"></td>
+							<td><img src="images/accoustic.jpg" title="accoustic" alt="an accoustic guitar portrait style photo"></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="vote4" id="vote4" value="electric"></td>
+							<td><img src="images/electric.jpg" title="electric" alt="a dramatic angle of an electric guitar"></td>
+						</tr>
+					</table>
+	
+				</fieldset>
+			</section>
+
+			<section>
+				<fieldset>
+					<legend>
+						<strong>Forest Submissions</strong>
+					</legend>
+		
+					<table>
+						<tr>
+							<td><input type="radio" name="vote5" id="vote5" value="fall forest"></td>
+							<td><img src="images/fallforest.jpg" title="fall forest" alt="a forest with bright fall colors"></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="vote6" id="vote6" value="forest bridge"></td>
+							<td><img src="images/forestbridge.jpg" title="forest Bridge" alt="a bridge tucked away in a forest"></td>
+						</tr>
+					</table>
+		
+				</fieldset>
+			</section>
+
+			<section>	
+				<fieldset>
+					<legend>
+						<strong>Submit Votes!</strong>
+					</legend>
+						<br>
+					<input id="submit" type="submit" value="Submit Votes" tabindex="16"> &nbsp;
+					<input id="reset" type="reset" value="Reset" tabindex="17">
+				</fieldset>
+			</section>
+		</form>
 
 		<footer>
 				

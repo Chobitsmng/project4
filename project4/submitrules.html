@@ -4,10 +4,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="A page with the rules and submition form for a local photo contest" />
-		<meta name="robots" content="nofollow" />
+		<meta name="robots" content="index, follow" />
 
 		<title>Submit/Rules</title>
 		<!--Leslie A Borst, ITWP1000, Fall2017-->
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
@@ -22,6 +23,32 @@
 			<a href="index.htm">Home</a> - <a href="galleries.html">Galleries</a> - <a href="submitrules.html">Submit/Rules</a> - <a href="topics.html">Topics</a> - <a href="vote.html">Vote</a>
 		</nav>
 		<hr />
+
+		<section>
+			<h4>Rules for the Contest</h4>
+
+			<fieldset>
+				<legend>
+					<strong>Contest Rules</strong>
+				</legend>
+				<ul>
+					<li>Submissions must be in .png, .jpg, .jpeg, or .gif file format and no more than 400 x 400 in size.</li>
+					<li>Please include the topic you are submitting to in the file name you are uploading.</li>
+					<li>Submissions Must be submitted by the 25th of every month by 11:59pm eastern time.</li>
+					<li>Voting lasts from the 26th at 12pm until the 30th at 11:59pm eastern time. </li>
+					<li>You can vote only once per month in each topic.</li>
+					<li>Any one may share on social media to get more votes. Advertise yourself!</li>
+					<li>Winners for the previous month are posted in the winners gallery by end of day on the 1st of every month.</li>
+					<li>Submitters are allowed to enter in to one category per month.</li>
+					<li>If you are declared a winner you are not allowed to enter the contest again for 2 months. This is to make it more fair so that others have a chance to win.</li>
+					<li>Submitters must live in the Detroit metro area.</li>
+					<li>Winners have 24hrs after notification to claim their prizes and verify thier contact information.</li>
+					<li>Prizes are sent vis U.S. Mail within 5 business days winners info verification.</li>
+					<li>For any questions about the rules or submitting your photo please contact us via the mail or social media buttons on the bottom of this website.</li>
+					<li>And of course have fun!!</li>
+				</ul>
+			</fieldset>
+		</section>
 
 		<form id="submit" name="submit" method="post" action="mailto:borstl899@macomb.edu">
 			<section>
@@ -45,9 +72,14 @@
 								<td><input type="tel" name="Phone Number" id="phone" size="30" tabindex="3" placeholder="Phone Number" required="required"></td>
 							</tr>
 							<tr>
+								<td>Address:</td>
+								<td><input type="text" name="Address" id="address" size="30" tabindex="4" placeholder="Address" required="required"></td>
+							</tr>
+							<tr>
 								<td> Please upload your photo entry:</td>
-								<td><input type="file" name="entry file" id="entry file" tabindex="4" required="required"><br />
-								<input type ="submit" value="Upload" tabindex="5"></td>
+								<td><input type="file" name="entry file" id="entry file" tabindex="5" required="required">
+								<br />
+								<input type="submit" value="Upload" tabindex="6"></td>
 							</tr>
 						
 						</table>

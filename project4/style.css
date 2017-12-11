@@ -1,0 +1,86 @@
+ /* project 4 style sheet */
+ /* Detroit Photo Contest */
+ 
+ 
+ /* Body Elements */
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: #3399ff;
+}
+
+header{
+    background-color: #c8c8c8;
+    height: 325px;
+    margin: 0 auto;
+}
+nav{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #c8c8c8;
+}
+hr{
+    width: 800px;
+}
+
+div{
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+footer{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #c8c8c8;
+}
+
+h1, h2, h4{
+    color: #b9eafd;
+}
+ 
+ /* List Elements */
+ ul{
+     list-style-image: url("images/cameraicon.jpg");
+ }
+
+ li{
+     margin: 10px 0px 0px 0px;
+ }
+ 
+ /* Table Elements */
+ td{
+    vertical-align: top;
+    font-size: 16px;
+}
+
+th{
+    font-size: 20px;
+}
+
+table.center{
+    margin-left: auto;
+    margin-right :auto;
+    border: 1px solid #3399ff;
+    background-color: #c8c8c8;
+}
+
+fieldset{
+    text-align: left;
+    padding: 5px;
+    background-color: #b9eafd;
+}
+
+legend{
+    background-color: #c8c8c8;
+    border: 1px solid #3399ff;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+section{
+    width: 550px;
+    margin: 20px auto;
+}
